@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mijn innerHTML opdracht</title>
+    <script src="js/functions.js" defer></script>
+</head>
+<body>
+
+<div id="p1">paragraaf 1</div>
+<button onclick="document.querySelector('#p1').innerHTML = 'hier stond paragraaf 1';">vervang paragraaf 1</button>
+
+<div id="p2">paragraaf 2</div>
+<button onclick="document.getElementById('p2').innerHTML = 'hier stond paragraaf 2';">vervang paragraaf 2</button>
+
+<div class="p3">paragraaf 3</div>
+<button onclick="document.querySelector('.p3').innerHTML = 'hier stond paragraaf 3';">vervang paragraaf 3</button>
+
+<div class="p4">paragraaf 4</div>
+<button onclick="document.querySelector('.p4').innerHTML = 'hier stond paragraaf 4';">vervang paragraaf 4</button>
+
+<button onclick="document.querySelector('body').innerHTML = 'deze pagina is nu leeg';">druk hier om alles weg te halen</button>
+
+</body>
+</html>
